@@ -31,7 +31,7 @@ class App:
 
     @staticmethod
     def argumentParser():
-        parser = argparse.ArgumentParser(description='Generate Files')
+        parser = argparse.ArgumentParser(description='Diff Files')
 
         parser.add_argument('File1', type=argparse.FileType('r'))
         parser.add_argument('File2', type=argparse.FileType('r'))
